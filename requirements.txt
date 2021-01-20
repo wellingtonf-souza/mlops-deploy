@@ -1,0 +1,7 @@
+textblob==0.15.3
+Flask_BasicAuth==0.2.0
+numpy==1.18.2
+requests==2.9.1
+pandas==1.0.3
+Flask==1.1.1
+scikit_learn==0.24.0
