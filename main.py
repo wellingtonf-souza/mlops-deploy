@@ -6,7 +6,7 @@ import pickle as pkl
 import pandas as pd
 import os
 
-model = pkl.load(open('models/model.pkl','rb'))
+model = pkl.load(open('./models/model.pkl','rb'))
 
 app = Flask(__name__)
 

@@ -7,7 +7,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-mlops_env/
+venv/
 build/
 develop-eggs/
 dist/
@@ -87,3 +87,6 @@ target/
 
 # Mypy cache
 .mypy_cache/
+
+# others
+env_vars.yaml
