@@ -1,7 +1,7 @@
 
 steps:
   - name: gcr.io/cloud-builders/docker
-  args: ['build', '--build-arg', 'USERNAME_CREATE_ARG=${_BASIC_AUTH_USERNAME}', 'PASSWORD_CREATE_ARG=${_BASIC_AUTH_PASSWORD}', '-t', '$_IMAGE_TAG', '.']
+    args: ['build', '--build-arg', 'USERNAME_CREATE_ARG=${_BASIC_AUTH_USERNAME}','--build-arg', 'PASSWORD_CREATE_ARG=${_BASIC_AUTH_PASSWORD}', '-t', '$_IMAGE_TAG', '.']
 
 images:
   - $_IMAGE_TAG
