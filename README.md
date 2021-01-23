@@ -1,7 +1,11 @@
 mlops-deploy
 ==============================
 
-Curso MLOps deploy Alura
+Curso MLOps deploy Alura:
+
+* Aplicação Serveless com App Engine: https://mlops-alura-302400.rj.r.appspot.com
+* Deploy com Docker e Cloud Run: https://ml-api-u6p3srcrea-uc.a.run.app/
+* Deploy automatizado no Cloud Run com Github Actions
 
 Project Organization
 ------------
