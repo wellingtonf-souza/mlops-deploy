@@ -17,7 +17,7 @@ basic_auth = BasicAuth(app)
 
 @app.route('/')
 def home():
-    return 'API running'
+    return 'API running with automated deploy'
 
 @app.route('/sentiment/<frase>/')
 def sentiment_analysis(frase):
